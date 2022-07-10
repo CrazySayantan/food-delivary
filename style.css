@@ -205,7 +205,7 @@ body.dark {
 .contain {
   background-image: url("food.jpeg");
   width: auto;
-  height: 55vh;
+  height: 38rem;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position-y: 60%;
@@ -520,9 +520,9 @@ body.dark .footer-distributed {
     margin-top: 270rem;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1032px) {
   .footer-distributed {
-    margin-top: 298rem;
+    margin-top: 293rem;
   }
 }
 @media (max-width: 1183px) {
@@ -535,7 +535,7 @@ body.dark .footer-distributed {
 }
 @media (max-width: 1080px) {
   .fullbox {
-    width: 28%;
+    width: 27%;
   }
 }
 
