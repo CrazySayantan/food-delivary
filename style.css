@@ -62,8 +62,8 @@ li {
   text-decoration: none;
   font-size: 20px;
   color: #ffff;
-font-family: 'Lobster', cursive;
-
+/*font-family: 'Lobster', cursive;*/
+font-family: Arial, Helvetica, sans-serif;
 }
 #under-menubar .ul2 .li2{
   background-color: #000000;
@@ -205,7 +205,7 @@ body.dark {
 .contain {
   background-image: url("food.jpeg");
   width: auto;
-  height: 38rem;
+  height: 55vh;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position-y: 60%;
