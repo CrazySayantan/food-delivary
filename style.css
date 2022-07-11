@@ -588,7 +588,7 @@ body.dark .footer-distributed {
     font-size: 14px;
   }
 }
-@media (max-width: 755px) {
+@media (max-width: 787px) {
   .footer-distributed {
     margin-top: 610rem;
   }
