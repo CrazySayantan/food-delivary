@@ -1,538 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>FoodieGuy😜 | Order your food online</title>
-    <link rel="stylesheet" href="./src/style/style.css" />
-    <link rel="icon" type="image/png" href="foodieguy icon.png" />
-    <script
-      src="https://kit.fontawesome.com/6c6ca31163.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <div class="contain">
-      <div class="nav">
-        <ul class="ul1">
-          <li class="li1"><a class="a1" href="#">Home</a></li>
-          <li class="li1"><a class="a1" href="#">About</a></li>
-          <li class="li1"><a class="a1" href="#">Choose</a></li>
-          <li class="li1"><a class="a1" href="#">Contact</a></li>
-        </ul>
-        <!-- <div class="under-menubar">
-          <ul class="ul2">
-          <li class="li2"><a class="a2" href="#">Home</a></li>
-          <li class="li2"><a class="a2" href="#">About</a></li>
-          <li class="li2"><a class="a2" href="#">Choose</a></li>
-          <li class="li2"><a class="a2" href="#">Contact</a></li>
-        </ul>
-        </div> -->
-        <form>
-          <input
-            type="text"
-            id="fname"
-            name="fname"
-            placeholder="Search for restaurant, cuisine or a dish"
-          />
-          <input type="button" class="submit" value="Search" />
-          <b
-            ><input type="button" class="glow-on-hover Sign-in" value="Sign-in"
-          /></b>
-        </form>
-        <!-- <div class="darkmode">
-          <a href="#"><i class="fa fa-circle-half-stroke"></i></a>
-        </div> -->
-         <div>
-    <input type="checkbox" class="checkbox" id="checkbox">
-  <label for="checkbox" class="label">
-    <i class='fas fa-sun'></i>
-    <i class="fas fa-moon"></i>
-   <div class='ball'>
-  </label>
-</div>
-</div>
-        <div class="menu-bar">
-          <a href="javascript:void(0);" class="bar"  onclick="myFunction()">
-          <i class="fa fa-bars"></i></a>
-        </div>
-      </div>
-      <div id="under-menubar">
-          <ul class="ul2">
-          <li class="li2"><a class="a2" href="#">Home</a></li>
-          <li class="li2"><a class="a2" href="#">About</a></li>
-          <li class="li2"><a class="a2" href="#">Choose</a></li>
-          <li class="li2"><a class="a2" href="#">Contact</a></li>
-           <li class="li2"><a class="a2" href="#">Sign-in</a></li>
-        </ul>
-        </div>
-      <h2>FoodieGuy😜</h2>
-    </div>
 
-    <div class="branding">
-      <h3 class="brand">Top brands for you</h3>
-      <div class="imgbox">
-        <img class="brandlogo" src="./src/img/wow.momo.jpg" />
-        <h6 class="brandname">WOW!Momo</h6>
-      </div>
-      <div class="imgbox">
-        <img class="brandlogo" src="./src/img/kfc logo.jpg" />
-        <h6 class="brandname">KFC</h6>
-      </div>
-      <div class="imgbox">
-        <img class="brandlogo" src="./src/img/pizza-hut.jpg" />
-        <h6 class="brandname">Pizza Hut</h6>
-      </div>
-      <div class="imgbox finish2">
-        <img class="brandlogo" src="./src/img/dominos_social_logo.jpg" />
-        <h6 class="brandname">Domino's Pizza</h6>
-      </div>
-      <div class="imgbox finish1">
-        <img class="brandlogo" src="./src/img/burger-king.jpg" />
-        <h6 class="brandname">Burger King</h6>
-      </div>
-    </div>
-    <div>
-      <h3 class="order-online">Order food online</h3>
-    </div>
-    <div class="main">
-      <div class="fullbox">
-        <!-- <div class="imgbox"> -->
-        <img class="image" src="./src/img/Chicken-Biryani.jpg" />
-        <!-- </div> -->
-        <div class="foodnamebox">
-          <div class="foodname">
-            Chicken biryani
-            <div class="rating"><div id="star">4.3★</div></div>
-          </div>
-          <div class="price">
-            <div class="rprice">From <b>₹130</b></div>
-            <div class="discount">5% 0ff</div>
-            <div class="delivary">Free delivary</div>
-          </div>
-          <div class="buttons">
-            <input type="button" class="addyourcartbtn" value="Add your kart" />
-            <input type="button" class="orderbtn" value="Order now" />
-          </div>
-        </div>
-      </div>
-      <div class="fullbox">
-        <!-- <div class="imgbox"> -->
-        <img class="image" src="./src/img/mutton-biriyani.jpeg" />
-        <!-- </div> -->
-        <div class="foodnamebox">
-          <div class="foodname">
-            Mutton biryani
-            <div class="rating"><div id="star">4.1★</div></div>
-          </div>
-          <div class="price">
-            <div class="rprice">From <b>₹200</b></div>
-            <div class="discount">15% 0ff</div>
-            <div class="delivary">Free delivary</div>
-          </div>
-          <div class="buttons">
-            <input type="button" class="addyourcartbtn" value="Add your kart" />
-            <input type="button" class="orderbtn" value="Order now" />
-          </div>
-        </div>
-      </div>
-      <div class="fullbox">
-        <!-- <div class="imgbox"> -->
-        <img class="image" src="./src/img/Chicken-manchurian.jpg" />
-        <!-- </div> -->
-        <div class="foodnamebox">
-          <div class="foodname">
-            Chicken manchurian
-            <div class="rating"><div id="star">4.0★</div></div>
-          </div>
-          <div class="price">
-            <div class="rprice">From <b>₹150</b></div>
-            <div class="discount">13% 0ff</div>
-            <div class="delivary">Free delivary</div>
-          </div>
-          <div class="buttons">
-            <input type="button" class="addyourcartbtn" value="Add your kart" />
-            <input type="button" class="orderbtn" value="Order now" />
-          </div>
-        </div>
-      </div>
-      <div class="fullbox">
-        <!-- <div class="imgbox"> -->
-        <img class="image" src="./src/img/cheese-pizza.jpeg" />
-        <!-- </div> -->
-        <div class="foodnamebox">
-          <div class="foodname">
-            Cheese pizza
-            <div class="rating"><div id="star">3.9★</div></div>
-          </div>
-          <div class="price">
-            <div class="rprice">From <b>₹169</b></div>
-            <div class="discount">10% 0ff</div>
-            <div class="delivary">Free delivary</div>
-          </div>
-          <div class="buttons">
-            <input type="button" class="addyourcartbtn" value="Add your kart" />
-            <input type="button" class="orderbtn" value="Order now" />
-          </div>
-        </div>
-      </div>
-      <div class="fullbox">
-        <!-- <div class="imgbox"> -->
-        <img class="image" src="./src/img/paneer.jpeg" />
-        <!-- </div> -->
-        <div class="foodnamebox">
-          <div class="foodname">
-            Paneer butter masala
-            <div class="rating"><div id="star">4.4★</div></div>
-          </div>
-          <div class="price">
-            <div class="rprice">From <b>₹133</b></div>
-            <div class="discount">8% 0ff</div>
-            <div class="delivary">Free delivary</div>
-          </div>
-          <div class="buttons">
-            <input type="button" class="addyourcartbtn" value="Add your kart" />
-            <input type="button" class="orderbtn" value="Order now" />
-          </div>
-        </div>
-      </div>
-      <div class="fullbox">
-        <!-- <div class="imgbox"> -->
-        <img class="image" src="./src/img/paneer-masala.jpeg" />
-        <!-- </div> -->
-        <div class="foodnamebox">
-          <div class="foodname">
-            Paneer masala
-            <div class="rating"><div id="star">3.8★</div></div>
-          </div>
-          <div class="price">
-            <div class="rprice">From <b>₹89</b></div>
-            <div class="discount">5% 0ff</div>
-            <div class="delivary">Free delivary</div>
-          </div>
-          <div class="buttons">
-            <input type="button" class="addyourcartbtn" value="Add your kart" />
-            <input type="button" class="orderbtn" value="Order now" />
-          </div>
-        </div>
-      </div>
-      <div class="fullbox">
-        <!-- <div class="imgbox"> -->
-        <img class="image" src="./src/img/butter-chicken.jpeg" />
-        <!-- </div> -->
-        <div class="foodnamebox">
-          <div class="foodname">
-            Butter chicken
-            <div class="rating"><div id="star">4.7★</div></div>
-          </div>
-          <div class="price">
-            <div class="rprice">From <b>₹140</b></div>
-            <div class="discount">10% 0ff</div>
-            <div class="delivary">Free delivary</div>
-          </div>
-          <div class="buttons">
-            <input type="button" class="addyourcartbtn" value="Add your kart" />
-            <input type="button" class="orderbtn" value="Order now" />
-          </div>
-        </div>
-      </div>
-      <div class="fullbox">
-        <!-- <div class="imgbox"> -->
-        <img class="image" src="./src/img/naan.jpg" />
-        <!-- </div> -->
-        <div class="foodnamebox">
-          <div class="foodname">
-            Naan
-            <div class="rating"><div id="star">4.1★</div></div>
-          </div>
-          <div class="price">
-            <div class="rprice">From <b>₹15</b></div>
-            <div class="discount">1% 0ff</div>
-            <div class="delivary">Free delivary</div>
-          </div>
-          <div class="buttons">
-            <input type="button" class="addyourcartbtn" value="Add your kart" />
-            <input type="button" class="orderbtn" value="Order now" />
-          </div>
-        </div>
-      </div>
-      <div class="fullbox">
-        <!-- <div class="imgbox"> -->
-        <img class="image" src="./src/img/paneer-pizza.webp" />
-        <!-- </div> -->
-        <div class="foodnamebox">
-          <div class="foodname">
-            Paneer pizza
-            <div class="rating"><div id="star">4.0★</div></div>
-          </div>
-          <div class="price">
-            <div class="rprice">From <b>₹179</b></div>
-            <div class="discount">12% 0ff</div>
-            <div class="delivary">Free delivary</div>
-          </div>
-          <div class="buttons">
-            <input type="button" class="addyourcartbtn" value="Add your kart" />
-            <input type="button" class="orderbtn" value="Order now" />
-          </div>
-        </div>
-      </div>
-      <div class="fullbox">
-        <!-- <div class="imgbox"> -->
-        <img class="image" src="./src/img/tandoori-chicken.jpg" />
-        <!-- </div> -->
-        <div class="foodnamebox">
-          <div class="foodname">
-            Tandoori chicken
-            <div class="rating"><div id="star">4.2★</div></div>
-          </div>
-          <div class="price">
-            <div class="rprice">From <b>₹150</b></div>
-            <div class="discount">6% 0ff</div>
-            <div class="delivary">Free delivary</div>
-          </div>
-          <div class="buttons">
-            <input type="button" class="addyourcartbtn" value="Add your kart" />
-            <input type="button" class="orderbtn" value="Order now" />
-          </div>
-        </div>
-      </div>
-      <div class="fullbox">
-        <!-- <div class="imgbox"> -->
-        <img class="image" src="./src/img/chocolate-cakes.jpg" />
-        <!-- </div> -->
-        <div class="foodnamebox">
-          <div class="foodname">
-            Choclate cake
-            <div class="rating"><div id="star">4.3★</div></div>
-          </div>
-          <div class="price">
-            <div class="rprice">From <b>₹250</b></div>
-            <div class="discount">15% 0ff</div>
-            <div class="delivary">Free delivary</div>
-          </div>
-          <div class="buttons">
-            <input type="button" class="addyourcartbtn" value="Add your kart" />
-            <input type="button" class="orderbtn" value="Order now" />
-          </div>
-        </div>
-      </div>
-      <div class="fullbox">
-        <!-- <div class="imgbox"> -->
-        <img class="image" src="./src/img/egg-roll.jpg" />
-        <!-- </div> -->
-        <div class="foodnamebox">
-          <div class="foodname">
-            Egg roll
-            <div class="rating"><div id="star">4.4★</div></div>
-          </div>
-          <div class="price">
-            <div class="rprice">From <b>₹99</b></div>
-            <div class="discount">6% 0ff</div>
-            <div class="delivary">Free delivary</div>
-          </div>
-          <div class="buttons">
-            <input type="button" class="addyourcartbtn" value="Add your kart" />
-            <input type="button" class="orderbtn" value="Order now" />
-          </div>
-        </div>
-      </div>
-      <div class="fullbox">
-        <!-- <div class="imgbox"> -->
-        <img class="image" src="./src/img/momos.webp" />
-        <!-- </div> -->
-        <div class="foodnamebox">
-          <div class="foodname">
-            Chicken momo
-            <div class="rating"><div id="star">3.9★</div></div>
-          </div>
-          <div class="price">
-            <div class="rprice">From <b>₹80</b></div>
-            <div class="discount">3% 0ff</div>
-            <div class="delivary">Free delivary</div>
-          </div>
-          <div class="buttons">
-            <input type="button" class="addyourcartbtn" value="Add your kart" />
-            <input type="button" class="orderbtn" value="Order now" />
-          </div>
-        </div>
-      </div>
-      <div class="fullbox">
-        <!-- <div class="imgbox"> -->
-        <img class="image" src="./src/img/kfc.jpg" />
-        <!-- </div> -->
-        <div class="foodnamebox">
-          <div class="foodname">
-            Kfc chicken
-            <div class="rating"><div id="star">4.5★</div></div>
-          </div>
-          <div class="price">
-            <div class="rprice">From <b>₹150</b></div>
-            <div class="discount">2% 0ff</div>
-            <div class="delivary">Free delivary</div>
-          </div>
-          <div class="buttons">
-            <input type="button" class="addyourcartbtn" value="Add your kart" />
-            <input type="button" class="orderbtn" value="Order now" />
-          </div>
-        </div>
-      </div>
-      <div class="fullbox">
-        <!-- <div class="imgbox"> -->
-        <img class="image" src="./src/img/chocolate-milk-shake.jpg" />
-        <!-- </div> -->
-        <div class="foodnamebox">
-          <div class="foodname">
-            Choclate milk shake
-            <div class="rating"><div id="star">4.2★</div></div>
-          </div>
-          <div class="price">
-            <div class="rprice">From <b>₹65</b></div>
-            <div class="discount">4% 0ff</div>
-            <div class="delivary">Free delivary</div>
-          </div>
-          <div class="buttons">
-            <input type="button" class="addyourcartbtn" value="Add your kart" />
-            <input type="button" class="orderbtn" value="Order now" />
-          </div>
-        </div>
-      </div>
-      <div class="fullbox">
-        <!-- <div class="imgbox"> -->
-        <img class="image" src="./src/img/sweets.jpg" />
-        <!-- </div> -->
-        <div class="foodnamebox">
-          <div class="foodname">
-            Special sweets
-            <div class="rating"><div id="star">4.5★</div></div>
-          </div>
-          <div class="price">
-            <div class="rprice">From <b>₹10</b></div>
-            <div class="discount">1% 0ff</div>
-            <div class="delivary">Free delivary</div>
-          </div>
-          <div class="buttons">
-            <input type="button" class="addyourcartbtn" value="Add your kart" />
-            <input type="button" class="orderbtn" value="Order now" />
-          </div>
-        </div>
-      </div>
-      <div class="fullbox">
-        <!-- <div class="imgbox"> -->
-        <img class="image" src="./src/img/Chow-Mein.jpg" />
-        <!-- </div> -->
-        <div class="foodnamebox">
-          <div class="foodname">
-            Chowmein
-            <div class="rating"><div id="star">3.8★</div></div>
-          </div>
-          <div class="price">
-            <div class="rprice">From <b>₹50</b></div>
-            <div class="discount">2% 0ff</div>
-            <div class="delivary">Free delivary</div>
-          </div>
-          <div class="buttons">
-            <input type="button" class="addyourcartbtn" value="Add your kart" />
-            <input type="button" class="orderbtn" value="Order now" />
-          </div>
-        </div>
-      </div>
-      <div class="fullbox">
-        <!-- <div class="imgbox"> -->
-        <img class="image" src="./src/img/Chocolate-Ice-Cream_0.jpg" />
-        <!-- </div> -->
-        <div class="foodnamebox">
-          <div class="foodname">
-            Ice cream
-            <div class="rating"><div id="star">4.7★</div></div>
-          </div>
-          <div class="price">
-            <div class="rprice">From <b>₹30</b></div>
-            <div class="discount">1% 0ff</div>
-            <div class="delivary">Free delivary</div>
-          </div>
-          <form class="buttons" action="thank_you.html">
-            <input type="submit" class="addyourcartbtn" value="Add your kart" />
-            <input type="submit" class="orderbtn" value="Order now" />
-          </form>
-        </div>
-      </div>
-      <div class="fullbox">
-        <!-- <div class="imgbox"> -->
-        <img class="image" src="./src/img/burger.webp" />
-        <!-- </div> -->
-        <div class="foodnamebox">
-          <div class="foodname">
-            Burgers
-            <div class="rating"><div id="star">4.0★</div></div>
-          </div>
-          <div class="price">
-            <div class="rprice">From <b>₹70</b></div>
-            <div class="discount">3% 0ff</div>
-            <div class="delivary">Free delivary</div>
-          </div>
-          <div class="buttons">
-            <input type="button" class="addyourcartbtn" value="Add your kart" />
-            <input type="button" class="orderbtn" value="Order now" />
-          </div>
-        </div>
-      </div>
-      <div class="fullbox">
-        <!-- <div class="imgbox"> -->
-        <img class="image" src="./src/img/chilli-chicken.webp" />
-        <!-- </div> -->
-        <div class="foodnamebox">
-          <div class="foodname">
-            Chilli chicken
-            <div class="rating"><div id="star">4.1★</div></div>
-          </div>
-          <div class="price">
-            <div class="rprice">From <b>₹135</b></div>
-            <div class="discount">10% 0ff</div>
-            <div class="delivary">Free delivary</div>
-          </div>
-          <div class="buttons">
-            <input type="button" class="addyourcartbtn" value="Add your kart" />
-            <input type="button" class="orderbtn" value="Order now" />
-          </div>
-        </div>
-      </div>
-    </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FoodieGuy😜 | Order your food online</title>
+  <link rel="stylesheet" href="./src/style/style.css" />
+  <link rel="icon" type="image/png" href="foodieguy icon.png" />
+  <script src="https://kit.fontawesome.com/6c6ca31163.js" crossorigin="anonymous"></script>
+</head>
 
-    <footer class="footer-distributed">
-      <div class="footer-right">
-        <a href="https://www.facebook.com/sayantan.ghosh.129357" target="_blank"
-          ><i class="fa fa-facebook"></i
-        ></a>
-        <a
-          href="https://twitter.com/iamsayantan_001?t=c-wv_eV8EWp2tR2W6jPnmg&s=09"
-          target="_blank"
-          ><i class="fa fa-twitter"></i
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/sayantan-ghosh-311b36222"
-          target="_blank"
-          ><i class="fa fa-linkedin"></i
-        ></a>
-        <a href="#"><i class="fa fa-github"></i></a>
+<body>
+  <div class="top">
+    <nav>
+      <div class="nav-b-1">
+        <div class="nav-elem">
+          <a href="#" class="nav-lable">Home</a>
+        </div>
+        <div class="nav-elem">
+          <a href="#" class="nav-lable">About</a>
+        </div>
+        <div class="nav-elem">
+          <a href="#" class="nav-lable">Choose</a>
+        </div>
+        <div class="nav-elem">
+          <a href="#" class="nav-lable">Contact</a>
+        </div>
       </div>
-
-      <div class="footer-left">
-        <p class="footer-links">
-          <a href="#">Home</a>
-          |
-          <a href="#">Blog</a>
-          |
-          <a href="#">Pricing</a>
-          |
-          <a href="#">About</a>
-          |
-          <a href="#">Faq</a>
-          |
-          <a href="#">Contact</a>
-        </p>
-
-        <p>Made with ❤️ by SAYANTAN || 
-           &copy 2022 All rights reserved </p>
+      <div class="nav-b-2">
+        <div class="search-input">
+          <input type="text" placeholder="Search for restaurant, cuisine or a dish">
+          <div class="search-icon-cont"></div>
+        </div>
+        <div class="sign-in-cont">
+          <div class="sign-in-btn">Sign-in</div>
+        </div>
+        <div class="toggle-btn">
+          <input type="checkbox" class="checkbox" id="checkbox">
+          <label for="checkbox" class="label">
+            <div class='ball'>
+          </label>
+        </div>
       </div>
-    </footer>
-    <script src="./src/scripts/script.js"></script>
-  </body>
+      <input type="checkbox" hidden="true" class="mob-check" id="mobcheck">
+      <label for="mobcheck" class="mob-check-label">
+        <div class="bar-1"></div>
+        <div class="bar-2"></div>
+        <div class="bar-3"></div>
+      </label>
+      <div class="mob-menu">
+        <a href="#" class="mob-elem">Home</a>
+        <a href="#" class="mob-elem">About</a>
+        <a href="#" class="mob-elem">Choose</a>
+        <a href="#" class="mob-elem">Contact</a>
+        <div class="mob-elem">
+          <div class="sign-in-btn-mob">Sign-in</div>
+          <div class="toggle-btn-mob">
+            <input type="checkbox" class="checkbox2" id="checkbox2">
+            <label for="checkbox2" class="label2">
+              <div class='ball2'>
+            </label>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</body>
+<script src="./src/scripts/script.js"></script>
 </html>

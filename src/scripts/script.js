@@ -1,16 +1,10 @@
-function myFunction() {
-  var x = document.getElementById("under-menubar");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
- 
-}
-
-const checkbox = document.getElementById("checkbox");
-
-checkbox.addEventListener("change", () => {
-  document.body.classList.toggle("dark");
- 
+let toggleDesktop = document.querySelector('#checkbox');
+let toggleMobile = document.querySelector('#checkbox2');
+toggleDesktop.addEventListener("change", () => {
+  console.log('desk');
+  document.body.classList.toggle('dark')
+});
+toggleMobile.addEventListener("change", () => {
+  console.log('mob');
+  document.body.classList.toggle('dark')
 });
